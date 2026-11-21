@@ -72,16 +72,18 @@
 ## 目录结构
 
 ```
-mod/AppraisalExpansion/
-  manifest.xml            模组清单（版本号唯一真源）
-  src/                    源码（C#，Harmony 补丁 + 数据）
-  Books/                  五本纸质手册 / 名片的 JSON 版面
-  Localization/           en / zh / zh-Hans 文案表
-  assets/                 美术源文件与生成脚本的输入
-  scripts/                build.ps1 / deploy.ps1
-assets/                   物品、图标的源画
-tools/                    手册生成、素材处理、审计脚本
+mod/AppraisalExpansion/     模组本体
+  manifest.xml              模组清单（版本号唯一真源）
+  src/                      源码（C#，Harmony 补丁 + 数据）
+  Books/                    五本纸质手册 / 名片的 JSON 版面
+  Localization/             en / zh / zh-Hans 文案表
+  scripts/                  build.ps1 / deploy.ps1
+
+assets/                     美术源画（物品 91 + 手册插画 35）
+tools/                      手册生成、素材处理、质检、发布打包
 ```
+
+部署时由 `scripts/deploy.ps1` 把 `assets/` 打包成模组里的 `Textures/`。
 
 ---
 
@@ -113,5 +115,7 @@ tools/                    手册生成、素材处理、审计脚本
 |---|---|
 | 代码（`src/`、`scripts/`、`tools/`） | [MIT](LICENSE) |
 | 美术与文案（`assets/`、`Books/`、`Localization/`、手册内容） | [CC BY-NC-SA 4.0](LICENSE-ASSETS) |
+
+代码许可证只覆盖 `src/`、`scripts/`、`tools/` 下的程序文件；美术与文案不适用 MIT，请按 [LICENSE-ASSETS](LICENSE-ASSETS) 使用。
 
 游戏本体与其素材版权归 Questing Goose Studio 所有；本仓库不包含任何游戏原生资源。

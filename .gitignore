@@ -53,3 +53,4 @@ tools/strip_manifest_backtick.py
 tools/sd/
 tools/dotnet-home/
 tools/cleanup_repo.py
+tools/fix_readme.py
