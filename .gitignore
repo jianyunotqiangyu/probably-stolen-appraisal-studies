@@ -33,3 +33,22 @@ __pycache__/
 *.user
 Thumbs.db
 .DS_Store
+
+# 开发期临时脚本（保留在本地，不入库）
+tools/_*.py
+tools/scan_*.py
+tools/dump_vanilla_*.py
+tools/export_vanilla_*.py
+tools/export_all_paper_sprites.py
+tools/inspect_magnifier.py
+tools/download_*.py
+tools/install_sdk.py
+tools/draw_*.py
+tools/patch_*.py
+tools/quiet_diagnostics.py
+tools/tidy_items.py
+tools/add_footprint_guard.py
+tools/restore_sources.py
+tools/strip_manifest_backtick.py
+tools/sd/
+tools/dotnet-home/
