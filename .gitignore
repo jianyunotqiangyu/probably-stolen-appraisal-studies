@@ -52,3 +52,4 @@ tools/restore_sources.py
 tools/strip_manifest_backtick.py
 tools/sd/
 tools/dotnet-home/
+tools/cleanup_repo.py
