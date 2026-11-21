@@ -80,18 +80,14 @@ mod/AppraisalExpansion/
   assets/                 美术源文件与生成脚本的输入
   scripts/                build.ps1 / deploy.ps1
 assets/                   物品、图标的源画
-docs/                     设计文档、发布清单、待查疑点
 tools/                    手册生成、素材处理、审计脚本
 ```
 
 ---
 
-## 文档
+## 反馈
 
-- [项目状态与工作日志](docs/00-项目状态与工作日志.md)
-- [编写纪律对照表](docs/01-编写纪律对照表.md)
-- [发布清单](docs/27-发布清单.md)
-- [待查与疑点](docs/25-待查与疑点.md)
+问题与建议请提交到 Issues；也可以在创意工坊评论区留言。
 
 ---
 
