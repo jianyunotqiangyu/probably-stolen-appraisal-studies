@@ -1,0 +1,45 @@
+﻿# 英文（兜底）：任何语言找不到键时回落到这里
+knuckle_name,Cybernetic Knuckle
+knuckle_desc,"A civilian-grade prosthetic knuckle. Check the shell alloy, the joint wear and the interface marking."
+guide_name,Cybernetic Knuckle Appraisal Guide
+guide_desc,"How to price a cybernetic knuckle: shell, condition and interface."
+appraisal_type,Cybernetic Knuckle
+envscan_name,Personal Environment Scanner
+envscan_desc,"A handheld air and radiation scanner. Check the sensor, the body and the expansion module."
+envscan_type,Personal Environment Scanner
+envscan_set_name,Full Kit · Personal Environment Scanner
+envscan_guide_name,Personal Environment Scanner Appraisal Guide
+envscan_guide_desc,"How to price an environment scanner: sensor, body, module and maker."
+card_name,Appraiser Guild Card
+card_desc,"Issued by the appraiser guild on joining. Your credential and your appointment record."
+wrist_name,Wrist Comm Terminal
+wrist_desc,"A civilian short-range comms unit. Check its condition, its casing and the services enabled on it."
+wrist_type,Wrist Comm Terminal
+wrist_set_name,Luxe Kit · Wrist Comm Terminal
+wrist_guide_name,Wrist Comm Terminal Appraisal Guide
+wrist_guide_desc,"How to price a wrist comm terminal: condition, casing and services."
+phone_guild_speaker,Operator
+phone_guild_greeting,Booking line. Would you like to book a visit?
+phone_guild_book,Book an appraiser.
+phone_guild_bye_choice,Not right now.
+phone_guild_booked,Noted. The board member will be here tomorrow when we open.
+phone_guild_bye,Call again any time. Goodbye.
+appraiser_name,Guild Appraiser
+appraiser_arrive,The board sent me. Have a look at these pieces.
+phone_not_ready,"You have not met the promotion requirements yet. Progress {0}%."
+phone_already_booked,You are already booked. I will be there tomorrow.
+exam_rules,Simple. Three pieces, each within ten percent of its value. Two out of three and you pass.
+exam_pass,Let me see... good, you passed.
+exam_fail,A pity - you failed this time. Practise more.
+exam_cert,Here is your certificate.
+exam_paid_fail,Fee received. I cannot give you the certificate this time.
+exam_no_cash,You do not have 150¢ on you.
+exam_pay_choice,Pay the 150¢ fee.
+exam_skip_choice,Not this time.
+exam_skip_reply,Fine, I will keep the notes. Come back when you want the certificate.
+phone_cooldown,The exam just ended. Book again tomorrow.
+coin_name,Ninth Ring Port Commemorative Coin
+coin_desc,Issued when the port opened. Check that the metal, the reverse design and the serial number all agree.
+coin_type,Ninth Ring Port Commemorative Coin
+coin_guide_name,Ninth Ring Port Commemorative Coin Appraisal Guide
+coin_guide_desc,How to price a commemorative coin: metal, issue and serial number.

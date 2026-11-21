@@ -1,0 +1,1022 @@
+{
+  "id": "envscan_guide",
+  "title": "Personal Environment Scanner Appraisal Guide",
+  "background": "paper_bg",
+  "designWidth": 628,
+  "designHeight": 804,
+  "width": 628,
+  "height": 804,
+  "posX": -450,
+  "posY": 0,
+  "chrome": [
+    {
+      "type": "button",
+      "id": "close",
+      "action": "close",
+      "sprite": "btn_close",
+      "x": 582,
+      "y": 17,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "zoom",
+      "action": "zoom",
+      "sprite": "btn_zoom",
+      "x": 535,
+      "y": 19,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_left",
+      "action": "flip_left",
+      "sprite": "btn_prev",
+      "x": 253,
+      "y": 760,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_right",
+      "action": "flip_right",
+      "sprite": "btn_next",
+      "x": 347,
+      "y": 761,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "text",
+      "id": "page_indicator",
+      "action": "page_indicator",
+      "style": "page_number",
+      "fontSize": 30,
+      "color": "#8b8375",
+      "align": "center",
+      "valign": "middle",
+      "wrap": false,
+      "x": 281,
+      "y": 748,
+      "w": 66,
+      "h": 50
+    }
+  ],
+  "pages": [
+    {
+      "name": "Intro",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 166,
+          "w": 506,
+          "h": 100,
+          "text": "Personal environment scanners are common on the station and their prices vary widely. This guide helps\nfix a fair market value for any of them.\n\nEvery scanner starts at 100¢. The sensor, the body, the module and the maker all move the figure, but\nwhatever its state a scanner is never worth less than 40¢.",
+          "translations": {
+            "zh-Hans": "空间站上的个人环境检测仪种类繁多，价格也千差万别。本指南将帮助确定任何检测仪的公平市场价值。\n\n所有检测仪的初始价值均为 100¢。传感器、机身、插件与厂商都会影响其价格，但无论状况如何，最低价值为 40¢。",
+            "zh": "空间站上的个人环境检测仪种类繁多，价格也千差万别。本指南将帮助确定任何检测仪的公平市场价值。\n\n所有检测仪的初始价值均为 100¢。传感器、机身、插件与厂商都会影响其价格，但无论状况如何，最低价值为 40¢。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 286,
+          "w": 506,
+          "h": 26,
+          "text": "Base and floor value",
+          "translations": {
+            "zh-Hans": "基础价值与最低价值",
+            "zh": "基础价值与最低价值"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 320,
+          "w": 506,
+          "h": 60,
+          "text": "Read the four factors in order, then add them up.",
+          "translations": {
+            "zh-Hans": "四项按顺序核定后相加。",
+            "zh": "四项按顺序核定后相加。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 226,
+          "y": 380,
+          "w": 176,
+          "h": 220,
+          "sprite": "envscan_good_ok",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 114,
+          "y": 606,
+          "w": 400,
+          "h": 20,
+          "text": "Body good, sensor working.",
+          "translations": {
+            "zh-Hans": "机身良好 · 传感器正常",
+            "zh": "机身良好 · 传感器正常"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Sensor",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "1. Sensor",
+          "translations": {
+            "zh-Hans": "1.传感器状态",
+            "zh": "1.传感器状态"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "Switch the device on and read the waveform and the indicator lamp.",
+          "translations": {
+            "zh-Hans": "开机，看波形与指示灯。",
+            "zh": "开机，看波形与指示灯。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 76,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_good_ok",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Working (+0¢)",
+          "translations": {
+            "zh-Hans": "正常 (+0¢)",
+            "zh": "正常 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 250,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_good_drift",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 246,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Offset (-20¢)",
+          "translations": {
+            "zh-Hans": "偏移 (-20¢)",
+            "zh": "偏移 (-20¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 424,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_good_dead",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 420,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Dead (-40¢)",
+          "translations": {
+            "zh-Hans": "失效 (-40¢)",
+            "zh": "失效 (-40¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 526,
+          "w": 506,
+          "h": 130,
+          "text": "Working: the waveform is steady and the lamp is solid green.\n\nOffset: the waveform drifts and the lamp is yellow.\n\nDead: the waveform no longer holds and the lamp is red.\n\nThe sensor is the one part that cannot be fixed with a screwdriver, tape or WD40.",
+          "translations": {
+            "zh-Hans": "正常：波形稳定，指示灯常绿。\n\n偏移：波形偏移，指示灯为黄色。\n\n失效：波形失去控制，指示灯为红色。\n\n传感器是唯一无法使用螺丝刀、胶带和 WD40 修复的部件。",
+            "zh": "正常：波形稳定，指示灯常绿。\n\n偏移：波形偏移，指示灯为黄色。\n\n失效：波形失去控制，指示灯为红色。\n\n传感器是唯一无法使用螺丝刀、胶带和 WD40 修复的部件。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "2. Body",
+          "translations": {
+            "zh-Hans": "2.机身品相",
+            "zh": "2.机身品相"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "Check the seam, the coating and the screen.",
+          "translations": {
+            "zh-Hans": "检查接缝、表面涂层与屏幕。",
+            "zh": "检查接缝、表面涂层与屏幕。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 76,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_good_ok",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Good (+0¢)",
+          "translations": {
+            "zh-Hans": "良好 (+0¢)",
+            "zh": "良好 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 250,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_worn_ok",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 246,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Worn (-5¢)",
+          "translations": {
+            "zh-Hans": "磨损 (-5¢)",
+            "zh": "磨损 (-5¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 424,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "envscan_broken_ok",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 420,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Broken (-20¢)",
+          "translations": {
+            "zh-Hans": "破损 (-20¢)",
+            "zh": "破损 (-20¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 526,
+          "w": 506,
+          "h": 130,
+          "text": "Good: the seam is tight and the surface is clean and intact.\n\nWorn: the surface is scratched and the coating is flaking.\n\nBroken: the screen is damaged, buttons are missing and the coating has flaked away.\n\nLight wear does not affect use, but heavy damage pulls the price down.",
+          "translations": {
+            "zh-Hans": "良好：接缝紧密，表面完好洁净。\n\n磨损：表面有划痕，表面涂层存在剥落现象。\n\n破损：屏幕损坏，按钮缺失，表面涂层剥落严重。\n\n机身的轻微磨损不会影响使用，但严重的损坏会导致价值下跌。",
+            "zh": "良好：接缝紧密，表面完好洁净。\n\n磨损：表面有划痕，表面涂层存在剥落现象。\n\n破损：屏幕损坏，按钮缺失，表面涂层剥落严重。\n\n机身的轻微磨损不会影响使用，但严重的损坏会导致价值下跌。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Modules",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "3. Module / 4. Maker",
+          "translations": {
+            "zh-Hans": "3.拓展插件 / 4.生产厂商",
+            "zh": "3.拓展插件 / 4.生产厂商"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "The module sits in the slot on the right side of the casing; the maker plate is on the left, above centre.",
+          "translations": {
+            "zh-Hans": "插件位于机身右侧的插槽内；厂商铭牌位于机身左侧面偏上的位置。",
+            "zh": "插件位于机身右侧的插槽内；厂商铭牌位于机身左侧面偏上的位置。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 175,
+          "y": 262,
+          "w": 19,
+          "h": 50,
+          "sprite": "ill_envscan_plugin_air",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 60,
+          "y": 318,
+          "w": 250,
+          "h": 20,
+          "text": "Air module (+10¢)",
+          "translations": {
+            "zh-Hans": "空气插件 (+10¢)",
+            "zh": "空气插件 (+10¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 434,
+          "y": 262,
+          "w": 18,
+          "h": 50,
+          "sprite": "ill_envscan_plugin_bio",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 318,
+          "y": 318,
+          "w": 250,
+          "h": 20,
+          "text": "Bio module (+15¢)",
+          "translations": {
+            "zh-Hans": "病菌插件 (+15¢)",
+            "zh": "病菌插件 (+15¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 171,
+          "y": 356,
+          "w": 28,
+          "h": 50,
+          "sprite": "ill_envscan_vendor_steam",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 60,
+          "y": 412,
+          "w": 250,
+          "h": 20,
+          "text": "Steam Works (+10¢)",
+          "translations": {
+            "zh-Hans": "蒸汽机械 (+10¢)",
+            "zh": "蒸汽机械 (+10¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 429,
+          "y": 356,
+          "w": 28,
+          "h": 50,
+          "sprite": "ill_envscan_vendor_luban",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 318,
+          "y": 412,
+          "w": 250,
+          "h": 20,
+          "text": "Luban Tech (+20¢)",
+          "translations": {
+            "zh-Hans": "鲁班科技 (+20¢)",
+            "zh": "鲁班科技 (+20¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 436,
+          "w": 506,
+          "h": 90,
+          "text": "Modules can be fitted together, and two at once are worth more.\n\nThe maker plate also adds value.",
+          "translations": {
+            "zh-Hans": "插件可以同时插入，同时拥有两个插件可以带来额外价值。\n\n厂商铭牌也会为检测仪带来额外的价值。",
+            "zh": "插件可以同时插入，同时拥有两个插件可以带来额外价值。\n\n厂商铭牌也会为检测仪带来额外的价值。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 552,
+          "x2": 528,
+          "y2": 552,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 568,
+          "w": 506,
+          "h": 80,
+          "text": "Module: air +10¢, bio +15¢, both +30¢.\nMaker: Steam Works +10¢, Luban Tech +20¢.",
+          "translations": {
+            "zh-Hans": "插件：空气 +10¢ ／ 病菌 +15¢ ／ 双插件 +30¢\n厂商：蒸汽机械 +10¢ ／ 鲁班科技 +20¢",
+            "zh": "插件：空气 +10¢ ／ 病菌 +15¢ ／ 双插件 +30¢\n厂商：蒸汽机械 +10¢ ／ 鲁班科技 +20¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Full kit",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "5. Full kit",
+          "translations": {
+            "zh-Hans": "5.套装",
+            "zh": "5.套装"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 96,
+          "text": "A scanner with a working sensor, a good body, both modules fitted and a maker plate is called a full kit,\nand adds a further 100¢ to the total.\n\nThe kit bonus is added once, after the four factors; it does not stack with itself.",
+          "translations": {
+            "zh-Hans": "传感器正常、机身良好、同时装有两个插件、并带厂商铭牌的检测仪，称为顶配套装，在四项合计之外额外加 100¢。\n\n套装加成只计一次，加在四项之后，不再重复计算。",
+            "zh": "传感器正常、机身良好、同时装有两个插件、并带厂商铭牌的检测仪，称为顶配套装，在四项合计之外额外加 100¢。\n\n套装加成只计一次，加在四项之后，不再重复计算。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 184,
+          "y": 320,
+          "w": 260,
+          "h": 260,
+          "sprite": "ill_envscan_set",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 588,
+          "w": 506,
+          "h": 20,
+          "text": "Working sensor, good body, both modules, maker plate.",
+          "translations": {
+            "zh-Hans": "传感器正常 · 机身良好 · 双插件 · 带厂商标",
+            "zh": "传感器正常 · 机身良好 · 双插件 · 带厂商标"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 626,
+          "w": 506,
+          "h": 60,
+          "text": "A full kit of 250¢ is the upper limit of the class.",
+          "translations": {
+            "zh-Hans": "顶配套装的 250¢ 是本类物件的价格上限。",
+            "zh": "顶配套装的 250¢ 是本类物件的价格上限。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Example",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Personal Environment Scanner Appraisal Guide",
+          "translations": {
+            "zh-Hans": "环境检测仪鉴定指南",
+            "zh": "环境检测仪鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "Example",
+          "translations": {
+            "zh-Hans": "示例",
+            "zh": "示例"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 206,
+          "w": 250,
+          "h": 150,
+          "text": "Full kit\nBase: +100\nBody good: +0\nSensor working: +0\nBoth modules: +30\nLuban Tech: +20\nFull kit: +100\nTotal: 250¢",
+          "translations": {
+            "zh-Hans": "顶配套装\n基础：+100\n机身良好：+0\n传感器正常：+0\n双插件：+30\n鲁班科技：+20\n套装加成：+100\n总计：250¢",
+            "zh": "顶配套装\n基础：+100\n机身良好：+0\n传感器正常：+0\n双插件：+30\n鲁班科技：+20\n套装加成：+100\n总计：250¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 358,
+          "y": 206,
+          "w": 250,
+          "h": 150,
+          "text": "Floor piece\nBase: +100\nBody broken: -20\nSensor dead: -40\nSubtotal: 40\nTotal: 40¢",
+          "translations": {
+            "zh-Hans": "底线件\n基础：+100\n机身破损：-20\n传感器失效：-40\n小计：40\n总计：40¢",
+            "zh": "底线件\n基础：+100\n机身破损：-20\n传感器失效：-40\n小计：40\n总计：40¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 100,
+          "y": 386,
+          "w": 200,
+          "h": 200,
+          "sprite": "ill_envscan_set",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 94,
+          "y": 592,
+          "w": 212,
+          "h": 20,
+          "text": "Full kit",
+          "translations": {
+            "zh-Hans": "顶配套装",
+            "zh": "顶配套装"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 328,
+          "y": 386,
+          "w": 200,
+          "h": 200,
+          "sprite": "ill_envscan_floor",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 322,
+          "y": 592,
+          "w": 212,
+          "h": 20,
+          "text": "Floor piece",
+          "translations": {
+            "zh-Hans": "底线件",
+            "zh": "底线件"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "id": "envscan_guide",
+    "name": "Personal Environment Scanner Appraisal Guide",
+    "nameLoc": "envscan_guide_name",
+    "description": "How to price a personal environment scanner.",
+    "descriptionLoc": "envscan_guide_desc",
+    "sprite": "items_misc/manual1",
+    "value": 50,
+    "important": true
+  }
+}

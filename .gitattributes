@@ -1,0 +1,14 @@
+# 统一行尾处理，避免 Windows/其他平台反复出现“整个文件都改了”
+* text=auto
+
+# 图片与字体按二进制处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.otf binary
+
+# 脚本保持原样（PowerShell 5.1 对 BOM 敏感，不要自动转换）
+*.ps1 -text
+*.bat -text

@@ -1,0 +1,30 @@
+# 美术与文案许可 / Artwork and Text License
+
+本仓库中以下内容采用 **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享 4.0 国际）：
+
+The following contents of this repository are licensed under
+**CC BY-NC-SA 4.0** (Attribution-NonCommercial-ShareAlike 4.0 International):
+
+- `assets/` 下的全部图像与源文件 / all images and source files under `assets/`
+- `mod/AppraisalExpansion/Books/` 下的手册版面与其中的文案 / guide layouts and their text
+- `mod/AppraisalExpansion/Localization/` 下的文案表 / localization tables
+- `mod/AppraisalExpansion/preview.png` 模组封面 / the mod cover
+- `docs/` 下的手册与设计文档正文 / the prose in the design documents
+
+## 你可以
+
+- 在注明作者（`jianyunotqiangyu`）并附本仓库链接的前提下，复制、分发这些素材
+- 在非商业用途中修改、二次创作（例如做别的模组的美术参考）
+
+## 你不可以
+
+- 将这些素材用于任何商业用途（包括付费模组、以捐赠为名的销售页面）
+- 二次发布时改用其他许可证（衍生作品必须同样以 CC BY-NC-SA 4.0 发布）
+
+## 不在本许可范围内
+
+- 游戏《Probably Stolen》的本体与其原生资源，版权归 Questing Goose Studio
+- 代码（`src/`、`scripts/`、`tools/`），见 [LICENSE](LICENSE)（MIT）
+
+许可全文 / Full license text:
+<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>

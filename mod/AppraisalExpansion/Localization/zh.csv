@@ -1,0 +1,45 @@
+﻿# 简体中文。Unity 的 locale code 可能是 zh 或 zh-Hans，两个文件都放了同样的内容
+knuckle_name,仿生指节
+knuckle_desc,民用级仿生指节。核对外壳材质、关节品相与接口刻字。
+guide_name,仿生指节鉴定指南
+guide_desc,如何为仿生指节估价：外壳、品相与接口刻字。
+appraisal_type,仿生指节
+envscan_name,个人环境检测仪
+envscan_desc,检测空气、辐射与湿度的随身设备。核对传感器、机身成色与拓展模块。
+envscan_type,个人环境检测仪
+envscan_set_name,顶配套装 · 个人环境检测仪
+envscan_guide_name,环境检测仪鉴定指南
+envscan_guide_desc,如何为环境检测仪估价：传感器、机身、插件与厂商。
+card_name,鉴定行会名片
+card_desc,加入鉴定行会时发放。既是身份凭证，也是预约考官的凭据。
+wrist_name,腕式通讯终端
+wrist_desc,民用短距通讯设备。核对机身品相、材质与所开通的支持服务。
+wrist_type,腕式通讯终端
+wrist_set_name,轻奢套装 · 腕式通讯终端
+wrist_guide_name,腕式通讯终端鉴定指南
+wrist_guide_desc,如何为腕式通讯终端估价：品相、材质与支持服务。
+phone_guild_speaker,接线员
+phone_guild_greeting,这里是预约专线。需要预约考官上门吗？
+phone_guild_book,预约考官上门。
+phone_guild_bye_choice,暂时不用。
+phone_guild_booked,记下了。考官明天开店时会到店。
+phone_guild_bye,随时可以再拨。再见。
+appraiser_name,鉴定考官
+appraiser_arrive,委员会派我来的。这几件东西麻烦你过一遍眼。
+phone_not_ready,您尚未满足晋升条件，还无法预约考试。当前进度 {0}%。
+phone_already_booked,已经替您约过了，考官明天会到店。
+exam_rules,规矩很简单：三件东西，误差压在原价一成以内，三件里过两件就算合格。
+exam_pass,让我看看……很好，你通过了。
+exam_fail,很遗憾，你未能通过考试，再多练练吧。
+exam_cert,这是你的证书。
+exam_paid_fail,费用收下了。证书这次不能给你。
+exam_no_cash,你手上的钱不够 150¢。
+exam_pay_choice,缴费 150¢。
+exam_skip_choice,这次先不缴。
+exam_skip_reply,行，记录我先留着。想拿证就再来一次。
+phone_cooldown,考试刚结束，明天再来约吧。
+coin_name,第九环港开港纪念币
+coin_desc,环港开港时发行的纪念币。核对材质、版别图案与防伪编号是否对得上。
+coin_type,第九环港开港纪念币
+coin_guide_name,开港纪念币鉴定指南
+coin_guide_desc,如何为开港纪念币估价：材质、版别与防伪编号。

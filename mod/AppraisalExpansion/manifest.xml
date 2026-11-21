@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest>
+  <ID>AppraisalExpansion</ID>
+  <Name>Probably Stolen: Appraisal Studies</Name>
+  <Author>jianyunotqiangyu</Author>
+  <ModVersion>0.6.1</ModVersion>
+  <Description><![CDATA[
+深空当铺：鉴定学 前瞻版 
+
+初级四件已完整可玩，后续会继续补初级余下四件与更高档位，更新计划共 32 件鉴定品。
+
+当前版本：给鉴定内容增加四件新的鉴定品、四本鉴定手册、一张鉴定行会名片，以及一条「电话约考」的晋升考核路径。
+
+新鉴定品
+
+- 仿生指节
+- 个人环境检测仪
+- 腕式通讯终端
+- 第九环港开港纪念币
+
+考证玩法
+
+- 鉴定行会名片 — 双击打开，卡面印着行会的预约号
+- 晋升进度满 100% 后拨通电话约考，进度不足会被直接回绝
+- 考官次日到店，带三件待鉴定物品；三件里估准两件即通过
+- 考试期间不计鉴定费；考试费 150¢ 在考后收取，缴费且合格才发证书
+
+---
+
+Appraisal Studies — English
+
+Probably Stolen: Appraisal Studies — Preview build
+
+The four junior items are fully playable. More junior items and higher ranks will follow; the plan is 32 appraisal items in total.
+
+Current version: four new appraisal items, four appraisal guides, one appraiser guild card, and a "book an exam by phone" path for promotion.
+
+New appraisal items
+
+- Cybernetic Knuckle
+- Personal Environment Scanner
+- Wrist Comm Terminal
+- Ninth Ring Port Commemorative Coin
+
+The exam
+
+- Appraiser guild card — double-click to open; the guild's booking number is printed on it
+- Once promotion progress reaches 100%, call to book an exam; below that you are turned down on the spot
+- The appraiser arrives the next day with three pieces to appraise; two correct estimates out of three and you pass
+- No appraisal fee is charged during the exam; the 150¢ exam fee is collected afterwards, and the certificate is issued only if you pay and pass
+
+Requires game version 0.46D.
+]]></Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Assemblies>
+    <Assembly>AppraisalExpansion.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</ModManifest>

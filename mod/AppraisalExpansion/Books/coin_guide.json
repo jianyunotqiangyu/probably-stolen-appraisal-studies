@@ -1,0 +1,1074 @@
+{
+  "id": "coin_guide",
+  "title": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+  "background": "paper_bg",
+  "designWidth": 628,
+  "designHeight": 804,
+  "width": 628,
+  "height": 804,
+  "posX": -450,
+  "posY": 0,
+  "chrome": [
+    {
+      "type": "button",
+      "id": "close",
+      "action": "close",
+      "sprite": "btn_close",
+      "x": 582,
+      "y": 17,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "zoom",
+      "action": "zoom",
+      "sprite": "btn_zoom",
+      "x": 535,
+      "y": 19,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_left",
+      "action": "flip_left",
+      "sprite": "btn_prev",
+      "x": 253,
+      "y": 760,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_right",
+      "action": "flip_right",
+      "sprite": "btn_next",
+      "x": 347,
+      "y": 761,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "text",
+      "id": "page_indicator",
+      "action": "page_indicator",
+      "style": "page_number",
+      "fontSize": 30,
+      "color": "#8b8375",
+      "align": "center",
+      "valign": "middle",
+      "wrap": false,
+      "x": 281,
+      "y": 748,
+      "w": 66,
+      "h": 50
+    }
+  ],
+  "pages": [
+    {
+      "name": "Intro",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 166,
+          "w": 506,
+          "h": 110,
+          "text": "Commemorative coins from the Ninth Ring Port are traded on every level of the station. This guide fixes a\nfair market value for any of them.\n\nEvery coin starts at 100¢ and is never worth less than 40¢.",
+          "translations": {
+            "zh-Hans": "第九环港开港纪念币在各环层都有流通。本指南用于确定任何一枚纪念币的公平市场价值。\n\n所有纪念币的初始价值均为 100¢，无论状况如何，最低价值为 40¢。",
+            "zh": "第九环港开港纪念币在各环层都有流通。本指南用于确定任何一枚纪念币的公平市场价值。\n\n所有纪念币的初始价值均为 100¢，无论状况如何，最低价值为 40¢。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 286,
+          "w": 506,
+          "h": 26,
+          "text": "Three things to check",
+          "translations": {
+            "zh-Hans": "三项核定",
+            "zh": "三项核定"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 320,
+          "w": 506,
+          "h": 80,
+          "text": "Commemorative coins generally do not circulate, so worn specimens are rare and this guide has no\ncondition grade. Read the metal, the reverse design and the serial number.",
+          "translations": {
+            "zh-Hans": "纪念币一般不流通，基本不出现品相较差的情况，故本指南不设品相一项。\n\n核定只看三处：币面材质、背面版别图案、防伪编号。",
+            "zh": "纪念币一般不流通，基本不出现品相较差的情况，故本指南不设品相一项。\n\n核定只看三处：币面材质、背面版别图案、防伪编号。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 214,
+          "y": 396,
+          "w": 200,
+          "h": 96,
+          "sprite": "ill_coin_copper_normal",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 114,
+          "y": 500,
+          "w": 400,
+          "h": 20,
+          "text": "Copper, ordinary issue.",
+          "translations": {
+            "zh-Hans": "铜质 · 普通版",
+            "zh": "铜质 · 普通版"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 585,
+          "x2": 528,
+          "y2": 585,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 599,
+          "w": 506,
+          "h": 60,
+          "text": "Any piece judged counterfeit is quoted at 40¢ without exception.",
+          "translations": {
+            "zh-Hans": "经检查判定为赝品的，一律按 40 报价。",
+            "zh": "经检查判定为赝品的，一律按 40 报价。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Metal",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "1. Metal",
+          "translations": {
+            "zh-Hans": "1.材质",
+            "zh": "1.材质"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "Compare the warmth of the highlight and the tone of the shadow under daylight.",
+          "translations": {
+            "zh-Hans": "在自然光下比较高光的冷暖与暗部的色调。",
+            "zh": "在自然光下比较高光的冷暖与暗部的色调。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 60,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_copper_normal",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 50,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Copper (+0¢)",
+          "translations": {
+            "zh-Hans": "铜 (+0¢)",
+            "zh": "铜 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 242,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_silver_normal",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 232,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Silver-plated (+30¢)",
+          "translations": {
+            "zh-Hans": "镀银 (+30¢)",
+            "zh": "镀银 (+30¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 424,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_gold_normal",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 414,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Gold-plated (+60¢)",
+          "translations": {
+            "zh-Hans": "镀金 (+60¢)",
+            "zh": "镀金 (+60¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 392,
+          "w": 506,
+          "h": 120,
+          "text": "Copper reads warm and red; its highlight is the dullest of the three.\n\nSilver plating reads cool and white, with a bright narrow highlight.\n\nGold plating reads warm yellow, with a strong highlight that fades toward the rim.",
+          "translations": {
+            "zh-Hans": "铜偏红棕，三种里高光最暗。\n\n镀银偏冷白，高光窄而亮。\n\n镀金偏暖黄，高光强、向边缘逐渐减弱。",
+            "zh": "铜偏红棕，三种里高光最暗。\n\n镀银偏冷白，高光窄而亮。\n\n镀金偏暖黄，高光强、向边缘逐渐减弱。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 578,
+          "x2": 528,
+          "y2": 578,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 592,
+          "w": 506,
+          "h": 60,
+          "text": "The metal is also stamped into the serial number; see section 3.",
+          "translations": {
+            "zh-Hans": "材质同时会印在防伪编号的末位字母上，见第 3 节。",
+            "zh": "材质同时会印在防伪编号的末位字母上，见第 3 节。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Issue",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "2. Issue",
+          "translations": {
+            "zh-Hans": "2.版别",
+            "zh": "2.版别"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "The reverse design tells the issue; the plainer the engraving, the commoner the coin.",
+          "translations": {
+            "zh-Hans": "背面图案决定版别：刻得越简，版别越普通。",
+            "zh": "背面图案决定版别：刻得越简，版别越普通。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 60,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_gold_normal",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 50,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Ordinary (+0¢)",
+          "translations": {
+            "zh-Hans": "普通 (+0¢)",
+            "zh": "普通 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 242,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_gold_rare",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 232,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Rare (+80¢)",
+          "translations": {
+            "zh-Hans": "稀有 (+80¢)",
+            "zh": "稀有 (+80¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 424,
+          "y": 252,
+          "w": 180,
+          "h": 88,
+          "sprite": "ill_coin_gold_collector",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 414,
+          "y": 348,
+          "w": 200,
+          "h": 20,
+          "text": "Collector (+200¢)",
+          "translations": {
+            "zh-Hans": "珍藏 (+200¢)",
+            "zh": "珍藏 (+200¢)"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 388,
+          "w": 506,
+          "h": 140,
+          "text": "Ordinary issue, The Ninefold Orbit: nine station segments encircling a central planet, with a Roman IX\nengraved on the top segment.\n\nRare issue, By Repulsion, Not Attraction: a tilted satellite orbit around an apple standing for gravity,\ncarrying a Roman IX on the orbit.\n\nCollector issue, To the Stars at Last: three launch trails running from a planet at the lower right to a\ncluster of stars at the upper left.",
+          "translations": {
+            "zh-Hans": "普通版【九段绕星】：九段空间站围绕中央星球，正上方一段刻有罗马数字 9。\n\n稀有版【以离代引】：一段倾斜的卫星轨道环绕代表重力的苹果，轨道上有罗马数字 9。\n\n珍藏版【终抵群星】：三条发射轨迹从右下角的星球出发，指向左上角的群星。",
+            "zh": "普通版【九段绕星】：九段空间站围绕中央星球，正上方一段刻有罗马数字 9。\n\n稀有版【以离代引】：一段倾斜的卫星轨道环绕代表重力的苹果，轨道上有罗马数字 9。\n\n珍藏版【终抵群星】：三条发射轨迹从右下角的星球出发，指向左上角的群星。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 578,
+          "x2": 528,
+          "y2": 578,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 592,
+          "w": 506,
+          "h": 60,
+          "text": "An issue that does not match its serial number range is counterfeit.",
+          "translations": {
+            "zh-Hans": "版别与编号号段对不上的，按赝品处理。",
+            "zh": "版别与编号号段对不上的，按赝品处理。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Serial",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "3. Serial number",
+          "translations": {
+            "zh-Hans": "3.防伪编号",
+            "zh": "3.防伪编号"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 60,
+          "text": "A serial is five digits followed by the metal letter: G for gold, S for silver, C for copper.",
+          "translations": {
+            "zh-Hans": "防伪编号为五位数字加一位材质字母：G 为镀金、S 为镀银、C 为铜。",
+            "zh": "防伪编号为五位数字加一位材质字母：G 为镀金、S 为镀银、C 为铜。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 262,
+          "w": 506,
+          "h": 96,
+          "text": "The number range fixes the issue:\nordinary 10000-99999, rare 01000-09999, collector 00001-00999.",
+          "translations": {
+            "zh-Hans": "号段对应版别：普通版 10000–99999，稀有版 01000–09999，珍藏版 00001–00999。",
+            "zh": "号段对应版别：普通版 10000–99999，稀有版 01000–09999，珍藏版 00001–00999。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 134,
+          "y": 356,
+          "w": 400,
+          "h": 182,
+          "sprite": "ill_coin_gold_collector_00077S",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 546,
+          "w": 506,
+          "h": 20,
+          "text": "Collector issue, serial 00077S — a triple number.",
+          "translations": {
+            "zh-Hans": "珍藏版 · 编号 00077S（豹子号）",
+            "zh": "珍藏版 · 编号 00077S（豹子号）"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 566,
+          "x2": 528,
+          "y2": 566,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 578,
+          "w": 506,
+          "h": 150,
+          "text": "Triple number: after dropping leading zeros, at least two digits remain and all of them are the same.\n00077 counts; 00007 does not. Such a coin adds 100¢.\n\nTest coin: the first nine numbers of any range - 10001-10009, 01001-01009, 00001-00009 - adds 600¢.",
+          "translations": {
+            "zh-Hans": "豹子号：去掉前导 0 后至少两位、且各位数字相同。00077 算，00007 不算。这类编号加 100¢。\n\n测试币：各号段起始的九个号——10001–10009、01001–01009、00001–00009——加 600¢。",
+            "zh": "豹子号：去掉前导 0 后至少两位、且各位数字相同。00077 算，00007 不算。这类编号加 100¢。\n\n测试币：各号段起始的九个号——10001–10009、01001–01009、00001–00009——加 600¢。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Counterfeits",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "4. Counterfeits",
+          "translations": {
+            "zh-Hans": "4.赝品",
+            "zh": "4.赝品"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 96,
+          "text": "Two mismatches mark a counterfeit. Either one is enough.\n\nFirst: the serial range does not match the reverse design.",
+          "translations": {
+            "zh-Hans": "两种不符即为赝品，出现任何一条都成立。\n\n其一：编号所在号段与背面版别图案不符。",
+            "zh": "两种不符即为赝品，出现任何一条都成立。\n\n其一：编号所在号段与背面版别图案不符。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 300,
+          "w": 506,
+          "h": 96,
+          "text": "Second: the letter at the end of the serial does not match the metal of the coin.",
+          "translations": {
+            "zh-Hans": "其二：编号末位字母与币面实际材质不符。",
+            "zh": "其二：编号末位字母与币面实际材质不符。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 134,
+          "y": 396,
+          "w": 400,
+          "h": 182,
+          "sprite": "ill_coin_copper_normal_04321G",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 586,
+          "w": 506,
+          "h": 20,
+          "text": "Copper coin ending in G — the letter does not match the metal.",
+          "translations": {
+            "zh-Hans": "铜质币 · 编号 04321G，末位与材质不符",
+            "zh": "铜质币 · 编号 04321G，末位与材质不符"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 612,
+          "x2": 528,
+          "y2": 612,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 626,
+          "w": 506,
+          "h": 80,
+          "text": "Any piece judged counterfeit is quoted at 40¢; no premium of any kind is added.",
+          "translations": {
+            "zh-Hans": "经检查判定为赝品的，一律按 40 报价，任何加成一律不计。",
+            "zh": "经检查判定为赝品的，一律按 40 报价，任何加成一律不计。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Examples",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+          "translations": {
+            "zh-Hans": "开港纪念币鉴定指南",
+            "zh": "开港纪念币鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "Examples",
+          "translations": {
+            "zh-Hans": "示例",
+            "zh": "示例"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 206,
+          "w": 250,
+          "h": 200,
+          "text": "Test coin\nBase: +100\nGold-plated: +60\nCollector: +200\nTest coin: +600\nTotal: 960¢",
+          "translations": {
+            "zh-Hans": "测试币\n基础：+100\n镀金：+60\n珍藏：+200\n测试币：+600\n总计：960¢",
+            "zh": "测试币\n基础：+100\n镀金：+60\n珍藏：+200\n测试币：+600\n总计：960¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 358,
+          "y": 206,
+          "w": 250,
+          "h": 200,
+          "text": "Counterfeit\nCopper, ordinary issue\nSerial 04321G\nQuoted: 40¢",
+          "translations": {
+            "zh-Hans": "赝品\n铜质 · 普通版\n编号 04321G\n报价：40¢",
+            "zh": "赝品\n铜质 · 普通版\n编号 04321G\n报价：40¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 70,
+          "y": 416,
+          "w": 240,
+          "h": 110,
+          "sprite": "ill_coin_gold_collector_00005G",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 534,
+          "w": 240,
+          "h": 20,
+          "text": "Gold collector, serial 00005G.",
+          "translations": {
+            "zh-Hans": "镀金珍藏 · 编号 00005G",
+            "zh": "镀金珍藏 · 编号 00005G"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 318,
+          "y": 416,
+          "w": 240,
+          "h": 110,
+          "sprite": "ill_coin_copper_normal_04321G",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 318,
+          "y": 534,
+          "w": 240,
+          "h": 20,
+          "text": "Copper, serial 04321G.",
+          "translations": {
+            "zh-Hans": "铜质 · 编号 04321G",
+            "zh": "铜质 · 编号 04321G"
+          },
+          "style": "caption",
+          "fontSize": 14,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "line",
+          "x": 100,
+          "y": 578,
+          "x2": 528,
+          "y2": 578,
+          "thickness": 1.2,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 592,
+          "w": 506,
+          "h": 80,
+          "text": "A test coin is the highest figure a coin of this class can reach; a counterfeit is the lowest.",
+          "translations": {
+            "zh-Hans": "测试币是本类物件的价格上限，赝品是下限。",
+            "zh": "测试币是本类物件的价格上限，赝品是下限。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "id": "coin_guide",
+    "name": "Ninth Ring Port Commemorative Coin Appraisal Guide",
+    "nameLoc": "coin_guide_name",
+    "description": "How to price a Ninth Ring Port commemorative coin.",
+    "descriptionLoc": "coin_guide_desc",
+    "sprite": "items_misc/manual1",
+    "value": 50,
+    "important": true
+  }
+}

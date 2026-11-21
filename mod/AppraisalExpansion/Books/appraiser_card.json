@@ -1,0 +1,139 @@
+{
+  "id": "appraiser_card",
+  "title": "Station Appraiser Guild Card",
+  "background": "business_card_template",
+  "width": 400,
+  "height": 250,
+  "designWidth": 200,
+  "designHeight": 125,
+  "posX": 0,
+  "posY": 0,
+  "draggable": true,
+  "zoomable": false,
+  "chrome": [
+    {
+      "type": "button",
+      "id": "close",
+      "action": "close",
+      "sprite": "btn_close",
+      "x": 172,
+      "y": 6,
+      "w": 22,
+      "h": 24
+    }
+  ],
+  "pages": [
+    {
+      "name": "Card",
+      "elements": [
+        {
+          "type": "text",
+          "x": 0,
+          "y": 10,
+          "w": 200,
+          "h": 12,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 8,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 26,
+          "w": 200,
+          "h": 22,
+          "text": "APPRAISER GUILD",
+          "translations": {
+            "zh-Hans": "鉴定行会",
+            "zh": "鉴定行会"
+          },
+          "style": "title",
+          "fontSize": 18,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "line",
+          "x": 24,
+          "y": 56,
+          "x2": 176,
+          "y2": 56,
+          "thickness": 1.0,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 66,
+          "w": 200,
+          "h": 12,
+          "text": "Appointments",
+          "translations": {
+            "zh-Hans": "预约",
+            "zh": "预约"
+          },
+          "style": "label",
+          "fontSize": 8,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 78,
+          "w": 200,
+          "h": 24,
+          "text": "1717",
+          "translations": {
+            "zh-Hans": "1717",
+            "zh": "1717"
+          },
+          "style": "title",
+          "fontSize": 20,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "phone"
+        },
+        {
+          "type": "text",
+          "x": 0,
+          "y": 110,
+          "w": 200,
+          "h": 10,
+          "text": "Show this card to book an appraiser.",
+          "translations": {
+            "zh-Hans": "凭此卡预约鉴定考官 · 请勿转借",
+            "zh": "凭此卡预约鉴定考官 · 请勿转借"
+          },
+          "style": "caption",
+          "fontSize": 8,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "id": "appraiser_card",
+    "name": "Station Appraiser Guild Card",
+    "nameLoc": "card_name",
+    "description": "Issued by the appraiser guild on joining.",
+    "descriptionLoc": "card_desc",
+    "sprite": "appraiser_card",
+    "value": 0,
+    "important": true
+  }
+}

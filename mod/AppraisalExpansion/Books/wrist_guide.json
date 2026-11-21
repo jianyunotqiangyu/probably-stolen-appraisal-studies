@@ -1,0 +1,970 @@
+{
+  "id": "wrist_guide",
+  "title": "Wrist Comm Terminal Appraisal Guide",
+  "background": "paper_bg",
+  "designWidth": 628,
+  "designHeight": 804,
+  "width": 628,
+  "height": 804,
+  "posX": -450,
+  "posY": 0,
+  "chrome": [
+    {
+      "type": "button",
+      "id": "close",
+      "action": "close",
+      "sprite": "btn_close",
+      "x": 582,
+      "y": 17,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "zoom",
+      "action": "zoom",
+      "sprite": "btn_zoom",
+      "x": 535,
+      "y": 19,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_left",
+      "action": "flip_left",
+      "sprite": "btn_prev",
+      "x": 253,
+      "y": 760,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "button",
+      "id": "flip_right",
+      "action": "flip_right",
+      "sprite": "btn_next",
+      "x": 347,
+      "y": 761,
+      "w": 28,
+      "h": 30
+    },
+    {
+      "type": "text",
+      "id": "page_indicator",
+      "action": "page_indicator",
+      "style": "page_number",
+      "fontSize": 30,
+      "color": "#8b8375",
+      "align": "center",
+      "valign": "middle",
+      "wrap": false,
+      "x": 281,
+      "y": 748,
+      "w": 66,
+      "h": 50
+    }
+  ],
+  "pages": [
+    {
+      "name": "Intro",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 166,
+          "w": 506,
+          "h": 100,
+          "text": "Wrist comm terminals are sold on every ring of the station. This guide fixes a fair market value for\nany of them.\n\nEvery terminal starts at 100¢. Condition, casing and the services enabled on it move the figure, but\nwhatever its state a terminal is never worth less than 40¢.",
+          "translations": {
+            "zh-Hans": "腕式通讯终端在各环层都有流通。本指南用于确定任何一台终端的公平市场价值。\n\n所有终端的初始价值均为 100¢。品相、材质与所开通的服务都会影响其价格，但无论状况如何，最低价值为 40¢。",
+            "zh": "腕式通讯终端在各环层都有流通。本指南用于确定任何一台终端的公平市场价值。\n\n所有终端的初始价值均为 100¢。品相、材质与所开通的服务都会影响其价格，但无论状况如何，最低价值为 40¢。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 286,
+          "w": 506,
+          "h": 26,
+          "text": "Base and floor value",
+          "translations": {
+            "zh-Hans": "基础价值与最低价值",
+            "zh": "基础价值与最低价值"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 320,
+          "w": 506,
+          "h": 60,
+          "text": "Read the three factors in order, then add them up.",
+          "translations": {
+            "zh-Hans": "三项按顺序核定后相加。",
+            "zh": "三项按顺序核定后相加。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 226,
+          "y": 380,
+          "w": 176,
+          "h": 220,
+          "sprite": "ill_wrist_relay",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 114,
+          "y": 606,
+          "w": 400,
+          "h": 20,
+          "text": "Cast casing, new, relay service.",
+          "translations": {
+            "zh-Hans": "铸铁材质 · 全新 · 卫星中继",
+            "zh": "铸铁材质 · 全新 · 卫星中继"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Condition",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "1. Condition",
+          "translations": {
+            "zh-Hans": "1.品相",
+            "zh": "1.品相"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "Check the screen, the buttons and the coating.",
+          "translations": {
+            "zh-Hans": "检查屏幕、按键与表面涂层。",
+            "zh": "检查屏幕、按键与表面涂层。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 76,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "wrist_iron_new",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 72,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "New (+0¢)",
+          "translations": {
+            "zh-Hans": "全新 (+0¢)",
+            "zh": "全新 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 250,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "wrist_iron_worn",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 246,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Worn (-20¢)",
+          "translations": {
+            "zh-Hans": "磨损 (-20¢)",
+            "zh": "磨损 (-20¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 424,
+          "y": 236,
+          "w": 188,
+          "h": 236,
+          "sprite": "wrist_iron_damaged",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 420,
+          "y": 480,
+          "w": 196,
+          "h": 20,
+          "text": "Damaged (-40¢)",
+          "translations": {
+            "zh-Hans": "损坏 (-40¢)",
+            "zh": "损坏 (-40¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 520,
+          "w": 506,
+          "h": 120,
+          "text": "New: the screen is unmarked and every button clicks.\n\nWorn: fine scratches on the case, and the leather strap is worn.\n\nDamaged: the screen is badly cracked.",
+          "translations": {
+            "zh-Hans": "全新：屏幕无痕，按键回弹正常。\n\n磨损：表面有细划痕，皮革表带磨损。\n\n损坏：屏幕开裂严重。",
+            "zh": "全新：屏幕无痕，按键回弹正常。\n\n磨损：表面有细划痕，皮革表带磨损。\n\n损坏：屏幕开裂严重。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Casing",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "2. Casing",
+          "translations": {
+            "zh-Hans": "2.材质",
+            "zh": "2.材质"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 40,
+          "text": "Compare the colour of the highlight and the grain under daylight.",
+          "translations": {
+            "zh-Hans": "在自然光下比较高光色调与表面纹理。",
+            "zh": "在自然光下比较高光色调与表面纹理。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 80,
+          "y": 244,
+          "w": 200,
+          "h": 250,
+          "sprite": "wrist_iron_new",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 68,
+          "y": 500,
+          "w": 224,
+          "h": 20,
+          "text": "Cast iron (+0¢)",
+          "translations": {
+            "zh-Hans": "铸铁 (+0¢)",
+            "zh": "铸铁 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 348,
+          "y": 244,
+          "w": 200,
+          "h": 250,
+          "sprite": "wrist_gold_new",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 336,
+          "y": 500,
+          "w": 224,
+          "h": 20,
+          "text": "Gold-plated (+200¢)",
+          "translations": {
+            "zh-Hans": "镀金 (+200¢)",
+            "zh": "镀金 (+200¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 545,
+          "w": 506,
+          "h": 110,
+          "text": "Cast iron reads cold and matte, with a broad soft highlight.\n\nGold plating reads warm, and the highlight falls away toward the edges; the grain of the base metal\nstill shows at the corners.",
+          "translations": {
+            "zh-Hans": "铸铁偏冷、哑光，高光宽而柔。\n\n镀金偏暖，高光向边缘减弱，转角处仍能看见底层金属的纹理。",
+            "zh": "铸铁偏冷、哑光，高光宽而柔。\n\n镀金偏暖，高光向边缘减弱，转角处仍能看见底层金属的纹理。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "3. Services",
+          "translations": {
+            "zh-Hans": "3.支持服务",
+            "zh": "3.支持服务"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 46,
+          "text": "Read the two service tags at the top right of the screen; the relay tag is a simplified satellite and the\nencryption tag is a key.",
+          "translations": {
+            "zh-Hans": "辨认屏幕右上角的两枚服务标：卫星中继的图标是一颗简化的卫星，加密通信的图标是一把钥匙。",
+            "zh": "辨认屏幕右上角的两枚服务标：卫星中继的图标是一颗简化的卫星，加密通信的图标是一把钥匙。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 254,
+          "w": 506,
+          "h": 90,
+          "text": "Both tags together give +120¢, which is more than the two separate figures added up: a terminal that\ncarries both was a subscriber unit, not a retail one.\n\nNo tag at all means no service, and no service adds nothing.",
+          "translations": {
+            "zh-Hans": "两枚标同时在，按双服务 +120¢ 计，高于两项单独相加——同时开通两项的通常是合约机，不是零售机。\n\n两枚标都没有即未开通，本项不加价；开通了哪几项，估值时就记哪几项。",
+            "zh": "两枚标同时在，按双服务 +120¢ 计，高于两项单独相加——同时开通两项的通常是合约机，不是零售机。\n\n两枚标都没有即未开通，本项不加价；开通了哪几项，估值时就记哪几项。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 110,
+          "y": 344,
+          "w": 140,
+          "h": 140,
+          "sprite": "wrist_iron_new",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 490,
+          "w": 220,
+          "h": 20,
+          "text": "None (+0¢)",
+          "translations": {
+            "zh-Hans": "未开通 (+0¢)",
+            "zh": "未开通 (+0¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 378,
+          "y": 344,
+          "w": 140,
+          "h": 140,
+          "sprite": "ill_wrist_relay",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 338,
+          "y": 490,
+          "w": 220,
+          "h": 20,
+          "text": "Satellite relay (+40¢)",
+          "translations": {
+            "zh-Hans": "卫星中继 (+40¢)",
+            "zh": "卫星中继 (+40¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 110,
+          "y": 512,
+          "w": 140,
+          "h": 140,
+          "sprite": "ill_wrist_crypt",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 658,
+          "w": 220,
+          "h": 20,
+          "text": "Encrypted comms (+50¢)",
+          "translations": {
+            "zh-Hans": "加密通信 (+50¢)",
+            "zh": "加密通信 (+50¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 378,
+          "y": 512,
+          "w": 140,
+          "h": 140,
+          "sprite": "ill_wrist_both",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 338,
+          "y": 658,
+          "w": 220,
+          "h": 20,
+          "text": "Both (+120¢)",
+          "translations": {
+            "zh-Hans": "双服务 (+120¢)",
+            "zh": "双服务 (+120¢)"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Luxe kit",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "4. Luxe kit",
+          "translations": {
+            "zh-Hans": "4.轻奢套装",
+            "zh": "4.轻奢套装"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 204,
+          "w": 506,
+          "h": 96,
+          "text": "A terminal that is new, gold-plated, and carries the satellite relay tag (alone or with encryption) is\ncalled a luxe kit, and adds a further 200¢.\n\nThe kit bonus is added once, after the three factors.",
+          "translations": {
+            "zh-Hans": "全新、镀金、且带卫星中继标（单独或与加密通信同时具备）的终端，称为轻奢套装，在三项合计之外再额外加 200¢。\n\n套装加成只计一次，加在三项之后。",
+            "zh": "全新、镀金、且带卫星中继标（单独或与加密通信同时具备）的终端，称为轻奢套装，在三项合计之外再额外加 200¢。\n\n套装加成只计一次，加在三项之后。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 184,
+          "y": 320,
+          "w": 260,
+          "h": 260,
+          "sprite": "ill_wrist_set",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 588,
+          "w": 506,
+          "h": 20,
+          "text": "New, gold-plated, both services.",
+          "translations": {
+            "zh-Hans": "全新 · 镀金 · 双服务",
+            "zh": "全新 · 镀金 · 双服务"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 626,
+          "w": 506,
+          "h": 60,
+          "text": "A luxe kit of 620¢ is the upper limit of this item.",
+          "translations": {
+            "zh-Hans": "轻奢套装的 620¢ 是本类物件的价格上限。",
+            "zh": "轻奢套装的 620¢ 是本类物件的价格上限。"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        }
+      ]
+    },
+    {
+      "name": "Example",
+      "elements": [
+        {
+          "type": "text",
+          "x": 144,
+          "y": 68,
+          "w": 346,
+          "h": 36,
+          "text": "STATION TRADE COMMISSION",
+          "translations": {
+            "zh-Hans": "空间站贸易委员会",
+            "zh": "空间站贸易委员会"
+          },
+          "style": "header",
+          "fontSize": 22,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "header"
+        },
+        {
+          "type": "text",
+          "x": 56,
+          "y": 100,
+          "w": 524,
+          "h": 46,
+          "text": "Wrist Comm Terminal Appraisal Guide",
+          "translations": {
+            "zh-Hans": "腕式通讯终端鉴定指南",
+            "zh": "腕式通讯终端鉴定指南"
+          },
+          "style": "title",
+          "fontSize": 24,
+          "align": "center",
+          "wrap": false,
+          "color": "#35526F",
+          "id": "title"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 172,
+          "w": 506,
+          "h": 26,
+          "text": "Example",
+          "translations": {
+            "zh-Hans": "示例",
+            "zh": "示例"
+          },
+          "style": "label",
+          "fontSize": 18,
+          "align": "left",
+          "wrap": false,
+          "color": "#35526F"
+        },
+        {
+          "type": "text",
+          "x": 70,
+          "y": 206,
+          "w": 250,
+          "h": 160,
+          "text": "Luxe kit\nBase: +100\nNew: +0\nGold-plated: +200\nBoth services: +120\nLuxe kit: +200\nTotal: 620¢",
+          "translations": {
+            "zh-Hans": "轻奢套装\n基础：+100\n全新：+0\n镀金：+200\n双服务：+120\n套装加成：+200\n总计：620¢",
+            "zh": "轻奢套装\n基础：+100\n全新：+0\n镀金：+200\n双服务：+120\n套装加成：+200\n总计：620¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "text",
+          "x": 358,
+          "y": 206,
+          "w": 250,
+          "h": 160,
+          "text": "Ordinary piece\nBase: +100\nDamaged: -40\nCast iron: +0\nRelay only: +40\nTotal: 100¢",
+          "translations": {
+            "zh-Hans": "普通件\n基础：+100\n损坏：−40\n铸铁：+0\n仅卫星中继：+40\n总计：100¢",
+            "zh": "普通件\n基础：+100\n损坏：−40\n铸铁：+0\n仅卫星中继：+40\n总计：100¢"
+          },
+          "style": "title",
+          "fontSize": 15,
+          "align": "left",
+          "wrap": true,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 100,
+          "y": 396,
+          "w": 200,
+          "h": 200,
+          "sprite": "ill_wrist_set",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 94,
+          "y": 602,
+          "w": 212,
+          "h": 20,
+          "text": "Luxe kit",
+          "translations": {
+            "zh-Hans": "轻奢套装",
+            "zh": "轻奢套装"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        },
+        {
+          "type": "image",
+          "x": 328,
+          "y": 396,
+          "w": 200,
+          "h": 200,
+          "sprite": "ill_wrist_floor",
+          "fit": "fit"
+        },
+        {
+          "type": "text",
+          "x": 322,
+          "y": 602,
+          "w": 212,
+          "h": 20,
+          "text": "Ordinary piece",
+          "translations": {
+            "zh-Hans": "普通件",
+            "zh": "普通件"
+          },
+          "style": "caption",
+          "fontSize": 15,
+          "align": "center",
+          "wrap": false,
+          "color": "#292234"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "id": "wrist_guide",
+    "name": "Wrist Comm Terminal Appraisal Guide",
+    "nameLoc": "wrist_guide_name",
+    "description": "How to price a wrist comm terminal.",
+    "descriptionLoc": "wrist_guide_desc",
+    "sprite": "items_misc/manual1",
+    "value": 50,
+    "important": true
+  }
+}

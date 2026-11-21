@@ -1,0 +1,32 @@
+# 构建产物与可再生产物
+build/
+Textures/
+dist/
+*.dll
+*.pdb
+
+# 研究资料（游戏反编译与拆包，不公开）
+reference/
+_archive/
+_tmp*/
+tools/dotnet/
+tools/decompiler/
+tools/pylibs/
+
+# 本机备份：含游戏存档与模组信任记录，绝不入库
+backup/
+
+# AI 工具产物
+.dsh-vision-router/
+
+# 早期实验页面
+paperui-studio*.html
+paperui-studio-*.png
+
+# 编辑器与系统
+.vs/
+.idea/
+__pycache__/
+*.user
+Thumbs.db
+.DS_Store
