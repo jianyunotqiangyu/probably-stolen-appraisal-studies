@@ -54,3 +54,7 @@ tools/sd/
 tools/dotnet-home/
 tools/cleanup_repo.py
 tools/fix_readme.py
+tools/rebalance_knuckle.py
+tools/patch_knuckle_values.py
+tools/patch_knuckle_builder_en.py
+tools/list_knuckle_numbers.py
