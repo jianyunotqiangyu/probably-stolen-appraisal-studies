@@ -111,10 +111,10 @@
           "y": 166,
           "w": 506,
           "h": 100,
-          "text": "Cybernetic knuckles are many and their prices vary widely. This guide helps fix a fair market value\nfor any of them.\n\nEvery knuckle starts at 85¢. Shell material, condition and interface marking all move the figure, but\nwhatever its state a knuckle is never worth less than 35¢.",
+          "text": "Cybernetic knuckles are many and their prices vary widely. This guide helps fix a fair market value\nfor any of them.\n\nEvery knuckle starts at 120¢. Shell material, condition and interface marking all move the figure, but\nwhatever its state a knuckle is never worth less than 50¢.",
           "translations": {
-            "zh-Hans": "空间站上的仿生指节种类繁多，价格也千差万别。本指南将帮助确定任何仿生指节的公平市场价值。\n\n所有仿生指节的初始价值均为 85¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 35¢。",
-            "zh": "空间站上的仿生指节种类繁多，价格也千差万别。本指南将帮助确定任何仿生指节的公平市场价值。\n\n所有仿生指节的初始价值均为 85¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 35¢。"
+            "zh-Hans": "空间站上的仿生指节种类繁多，价格也千差万别。本指南将帮助确定任何仿生指节的公平市场价值。\n\n所有仿生指节的初始价值均为 120¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 50¢。",
+            "zh": "空间站上的仿生指节种类繁多，价格也千差万别。本指南将帮助确定任何仿生指节的公平市场价值。\n\n所有仿生指节的初始价值均为 120¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 50¢。"
           },
           "style": "title",
           "fontSize": 15,
@@ -298,10 +298,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "Steel (+30¢)",
+          "text": "Steel (+45¢)",
           "translations": {
-            "zh-Hans": "钢 (+30¢)",
-            "zh": "钢 (+30¢)"
+            "zh-Hans": "钢 (+45¢)",
+            "zh": "钢 (+45¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -324,10 +324,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "Gold-plated (+70¢)",
+          "text": "Gold-plated (+100¢)",
           "translations": {
-            "zh-Hans": "镀金 (+70¢)",
-            "zh": "镀金 (+70¢)"
+            "zh-Hans": "镀金 (+100¢)",
+            "zh": "镀金 (+100¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -468,10 +468,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "Worn (-25¢)",
+          "text": "Worn (-30¢)",
           "translations": {
-            "zh-Hans": "磨损 (-25¢)",
-            "zh": "磨损 (-25¢)"
+            "zh-Hans": "磨损 (-30¢)",
+            "zh": "磨损 (-30¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -494,10 +494,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "Damaged (-50¢)",
+          "text": "Damaged (-60¢)",
           "translations": {
-            "zh-Hans": "受损 (-50¢)",
-            "zh": "受损 (-50¢)"
+            "zh-Hans": "受损 (-60¢)",
+            "zh": "受损 (-60¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -612,10 +612,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "Unknown (-15¢)",
+          "text": "Unknown (-20¢)",
           "translations": {
-            "zh-Hans": "规格不明 (-15¢)",
-            "zh": "规格不明 (-15¢)"
+            "zh-Hans": "规格不明 (-20¢)",
+            "zh": "规格不明 (-20¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -664,10 +664,10 @@
           "y": 480,
           "w": 196,
           "h": 20,
-          "text": "EMG+ (+15¢)",
+          "text": "EMG+ (+25¢)",
           "translations": {
-            "zh-Hans": "EMG+ (+15¢)",
-            "zh": "EMG+ (+15¢)"
+            "zh-Hans": "EMG+ (+25¢)",
+            "zh": "EMG+ (+25¢)"
           },
           "style": "caption",
           "fontSize": 15,
@@ -756,10 +756,10 @@
           "y": 206,
           "w": 506,
           "h": 26,
-          "text": "value = max(¢35, ¢85 + material + condition + interface)",
+          "text": "value = max(¢50, ¢120 + material + condition + interface)",
           "translations": {
-            "zh-Hans": "价值 = max(¢35, ¢85 + 材质 + 品相 + 接口)",
-            "zh": "价值 = max(¢35, ¢85 + 材质 + 品相 + 接口)"
+            "zh-Hans": "价值 = max(¢50, ¢120 + 材质 + 品相 + 接口)",
+            "zh": "价值 = max(¢50, ¢120 + 材质 + 品相 + 接口)"
           },
           "style": "title",
           "fontSize": 16,
@@ -816,10 +816,10 @@
           "y": 301,
           "w": 438,
           "h": 20,
-          "text": "Steel  +30¢",
+          "text": "Steel  +45¢",
           "translations": {
-            "zh-Hans": "钢  +30¢",
-            "zh": "钢  +30¢"
+            "zh-Hans": "钢  +45¢",
+            "zh": "钢  +45¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -833,10 +833,10 @@
           "y": 322,
           "w": 438,
           "h": 20,
-          "text": "Gold-plated  +70¢",
+          "text": "Gold-plated  +100¢",
           "translations": {
-            "zh-Hans": "镀金  +70¢",
-            "zh": "镀金  +70¢"
+            "zh-Hans": "镀金  +100¢",
+            "zh": "镀金  +100¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -884,10 +884,10 @@
           "y": 394,
           "w": 438,
           "h": 20,
-          "text": "Worn  -25¢",
+          "text": "Worn  -30¢",
           "translations": {
-            "zh-Hans": "磨损  -25¢",
-            "zh": "磨损  -25¢"
+            "zh-Hans": "磨损  -30¢",
+            "zh": "磨损  -30¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -901,10 +901,10 @@
           "y": 415,
           "w": 438,
           "h": 20,
-          "text": "Damaged  -50¢",
+          "text": "Damaged  -60¢",
           "translations": {
-            "zh-Hans": "受损  -50¢",
-            "zh": "受损  -50¢"
+            "zh-Hans": "受损  -60¢",
+            "zh": "受损  -60¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -935,10 +935,10 @@
           "y": 466,
           "w": 438,
           "h": 20,
-          "text": "Unknown  -15¢",
+          "text": "Unknown  -20¢",
           "translations": {
-            "zh-Hans": "规格不明  -15¢",
-            "zh": "规格不明  -15¢"
+            "zh-Hans": "规格不明  -20¢",
+            "zh": "规格不明  -20¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -969,10 +969,10 @@
           "y": 508,
           "w": 438,
           "h": 20,
-          "text": "EMG+  +15¢",
+          "text": "EMG+  +25¢",
           "translations": {
-            "zh-Hans": "EMG+  +15¢",
-            "zh": "EMG+  +15¢"
+            "zh-Hans": "EMG+  +25¢",
+            "zh": "EMG+  +25¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -995,10 +995,10 @@
           "y": 553,
           "w": 506,
           "h": 130,
-          "text": "Take the base from the shell, subtract for condition, then adjust for the marking. Round to 5¢ at the\ncounter; tolerance is ±5%.\n\nLimits: gold-plated + EMG+ + sound = 170¢; unknown + damaged = 35¢.",
+          "text": "Take the base from the shell, subtract for condition, then adjust for the marking. Round to 5¢ at the\ncounter; tolerance is ±5%.\n\nLimits: gold-plated + EMG+ + sound = 245¢; unknown + damaged = 50¢.",
           "translations": {
-            "zh-Hans": "先由外壳取基准，再按品相扣减，最后按接口调整。成交按 5¢ 取整，容差 ±5%。\n\n上下限：镀金 + EMG+ + 无 = 170¢；规格不明 + 受损 = 35¢。",
-            "zh": "先由外壳取基准，再按品相扣减，最后按接口调整。成交按 5¢ 取整，容差 ±5%。\n\n上下限：镀金 + EMG+ + 无 = 170¢；规格不明 + 受损 = 35¢。"
+            "zh-Hans": "先由外壳取基准，再按品相扣减，最后按接口调整。成交按 5¢ 取整，容差 ±5%。\n\n上下限：镀金 + EMG+ + 无 = 245¢；规格不明 + 受损 = 50¢。",
+            "zh": "先由外壳取基准，再按品相扣减，最后按接口调整。成交按 5¢ 取整，容差 ±5%。\n\n上下限：镀金 + EMG+ + 无 = 245¢；规格不明 + 受损 = 50¢。"
           },
           "style": "title",
           "fontSize": 15,
@@ -1070,10 +1070,10 @@
           "y": 208,
           "w": 506,
           "h": 118,
-          "text": "Base: +85\nGold-plated: +70\nSound: +0\nEMG+: +15\nTotal: 170¢",
+          "text": "Base: +120\nGold-plated: +100\nSound: +0\nEMG+: +25\nTotal: 245¢",
           "translations": {
-            "zh-Hans": "基础：+85\n镀金：+70\n无：+0\nEMG+：+15\n总计：170¢",
-            "zh": "基础：+85\n镀金：+70\n无：+0\nEMG+：+15\n总计：170¢"
+            "zh-Hans": "基础：+120\n镀金：+100\n无：+0\nEMG+：+25\n总计：245¢",
+            "zh": "基础：+120\n镀金：+100\n无：+0\nEMG+：+25\n总计：245¢"
           },
           "style": "title",
           "fontSize": 15,
@@ -1188,10 +1188,10 @@
           "y": 208,
           "w": 506,
           "h": 124,
-          "text": "Base: +85\nAluminium alloy: +0\nWorn: -25\nUnknown: -15\nSubtotal: +45\nTotal: 45¢",
+          "text": "Base: +120\nAluminium alloy: +0\nWorn: -30\nUnknown: -20\nSubtotal: +70\nTotal: 70¢",
           "translations": {
-            "zh-Hans": "基础：+85\n铝合金：+0\n磨损：-25\n规格不明：-15\n小计：+45\n总计：45¢",
-            "zh": "基础：+85\n铝合金：+0\n磨损：-25\n规格不明：-15\n小计：+45\n总计：45¢"
+            "zh-Hans": "基础：+120\n铝合金：+0\n磨损：-30\n规格不明：-20\n小计：+70\n总计：70¢",
+            "zh": "基础：+120\n铝合金：+0\n磨损：-30\n规格不明：-20\n小计：+70\n总计：70¢"
           },
           "style": "title",
           "fontSize": 15,

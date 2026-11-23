@@ -4,7 +4,7 @@
   1. 每页第 2 行是**书名**：「仿生指节鉴定指南」，不是页面主题；
   2. 小节标题写在正文里：「基础价值与最低价值」「1.材料」「2.品相」「3.控制接口」；
   3. 小节下先一句判定方法，再横排三张图，图注只写名称（铝合金 / 钢 / 镀金）；
-  4. 示例段是**清单式**：基础：+85 / 镀金：+70 / 无：+0 / EMG+：+15 / 总计：170¢，
+  4. 示例段是**清单式**：基础：+120 / 镀金：+100 / 无：+0 / EMG+：+25 / 总计：245¢，
      对应原版“基础：+100 / 碳复合材料：+50 / 磨损：-35 / EMG+：+45 / 总计：160信用点”；
   5. 中文走 translations（zh-Hans + zh），英文为兜底 text；
   6. 每页填充目标 75%–85%（内容底边 y≈604–684）。
@@ -107,11 +107,11 @@ p1.append(body(70, 166, 506, 100,
 """Cybernetic knuckles are many and their prices vary widely. This guide helps fix a fair market value
 for any of them.
 
-Every knuckle starts at 85¢. Shell material, condition and interface marking all move the figure, but
-whatever its state a knuckle is never worth less than 35¢.""",
+Every knuckle starts at 120¢. Shell material, condition and interface marking all move the figure, but
+whatever its state a knuckle is never worth less than 50¢.""",
 """空间站上的仿生指节种类繁多，价格也千差万别。本指南将帮助确定任何仿生指节的公平市场价值。
 
-所有仿生指节的初始价值均为 85¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 35¢。"""))
+所有仿生指节的初始价值均为 120¢。材质、品相与接口刻字都会影响其价格。但无论状况如何，仿生指节的最低价值为 50¢。"""))
 p1.append(heading("Base and floor value", "基础价值与最低价值", 286))
 p1.append(body(70, 320, 506, 60,
 """Evaluate the three factors in order, then add them up. Note the floor before arguing the total.""",
@@ -129,8 +129,8 @@ p2.append(body(70, 204, 506, 60,
 """在自然光下转动物件，看高光与表面颗粒。"""))
 three_images(p2,
              ["ill_material_alu", "ill_material_steel", "ill_material_gold"],
-             [f"Aluminium alloy (+0{CUR})", f"Steel (+30{CUR})", f"Gold-plated (+70{CUR})"],
-             [f"铝合金 (+0{CUR})", f"钢 (+30{CUR})", f"镀金 (+70{CUR})"])
+             [f"Aluminium alloy (+0{CUR})", f"Steel (+45{CUR})", f"Gold-plated (+100{CUR})"],
+             [f"铝合金 (+0{CUR})", f"钢 (+45{CUR})", f"镀金 (+100{CUR})"])
 p2.append(body(70, 526, 506, 110,
 """Aluminium is matte and cold; steel has fine rolled grain and a hard highlight; gold plating is warm
 and fades toward the edges.
@@ -150,8 +150,8 @@ p3.append(body(70, 204, 506, 60,
 """用放大镜撑开关节缝隙，检视销钉与走线。"""))
 three_images(p3,
              ["ill_condition_normal", "ill_condition_wear", "ill_condition_damage"],
-             [f"None (+0{CUR})", f"Worn (-25{CUR})", f"Damaged (-50{CUR})"],
-             [f"无 (+0{CUR})", f"磨损 (-25{CUR})", f"受损 (-50{CUR})"])
+             [f"None (+0{CUR})", f"Worn (-30{CUR})", f"Damaged (-60{CUR})"],
+             [f"无 (+0{CUR})", f"磨损 (-30{CUR})", f"受损 (-60{CUR})"])
 p3.append(body(70, 526, 506, 110,
 """The knuckle is a double-pin part: the gap is designed clearance. A gap is not looseness; looseness
 is a pin moving in its bore. Exposed cable or restricted travel is damage, and is priced as such; damage is the only grade
@@ -168,8 +168,8 @@ p4.append(body(70, 204, 506, 60,
 """辨认关节下方的铭牌；必要时用放大镜确认刻痕深度。"""))
 three_images(p4,
              ["ill_iface_none", "ill_iface_emg", "ill_iface_emgplus"],
-             [f"Unknown (-15{CUR})", f"EMG (+0{CUR})", f"EMG+ (+15{CUR})"],
-             [f"规格不明 (-15{CUR})", f"EMG (+0{CUR})", f"EMG+ (+15{CUR})"])
+             [f"Unknown (-20{CUR})", f"EMG (+0{CUR})", f"EMG+ (+25{CUR})"],
+             [f"规格不明 (-20{CUR})", f"EMG (+0{CUR})", f"EMG+ (+25{CUR})"])
 p4.append(body(70, 526, 506, 110,
 """Factory marks are cold-struck, leaving a regular squeeze pattern at the bottom of the groove. EMG+ is
 the factory stamp, EMG the civilian standard; a plate without a mark is priced as unknown. The gap
@@ -180,15 +180,15 @@ book["pages"].append({"name": "Interface", "elements": p4})
 
 # ============ 五、4.计价 ============
 rows = [
-    ("Material", "材质", [("Aluminium alloy", "铝合金", "+0"), ("Steel", "钢", "+30"), ("Gold-plated", "镀金", "+70")]),
-    ("Condition", "品相", [("None", "无", "+0"), ("Worn", "磨损", "-25"), ("Damaged", "受损", "-50")]),
-    ("Interface", "接口", [("Unknown", "规格不明", "-15"), ("EMG", "EMG", "+0"), ("EMG+", "EMG+", "+15")]),
+    ("Material", "材质", [("Aluminium alloy", "铝合金", "+0"), ("Steel", "钢", "+45"), ("Gold-plated", "镀金", "+100")]),
+    ("Condition", "品相", [("None", "无", "+0"), ("Worn", "磨损", "-30"), ("Damaged", "受损", "-60")]),
+    ("Interface", "接口", [("Unknown", "规格不明", "-20"), ("EMG", "EMG", "+0"), ("EMG+", "EMG+", "+25")]),
 ]
 p5 = page_head()
 p5.append(heading("4. Pricing", "4.计价"))
 p5.append(body(70, 206, 506, 26,
-               f"value = max({CUR}35, {CUR}85 + material + condition + interface)",
-               f"价值 = max({CUR}35, {CUR}85 + 材质 + 品相 + 接口)", "center", 16))
+               f"value = max({CUR}50, {CUR}120 + material + condition + interface)",
+               f"价值 = max({CUR}50, {CUR}120 + 材质 + 品相 + 接口)", "center", 16))
 p5.append(line(100, 246, 528, 246))
 y = 258
 for group_en, group_zh, entries in rows:
@@ -203,26 +203,26 @@ p5.append(body(70, y + 16, 506, 130,
 """Take the base from the shell, subtract for condition, then adjust for the marking. Round to 5¢ at the
 counter; tolerance is ±5%.
 
-Limits: gold-plated + EMG+ + sound = 170¢; unknown + damaged = 35¢.""",
+Limits: gold-plated + EMG+ + sound = 245¢; unknown + damaged = 50¢.""",
 """先由外壳取基准，再按品相扣减，最后按接口调整。成交按 5¢ 取整，容差 ±5%。
 
-上下限：镀金 + EMG+ + 无 = 170¢；规格不明 + 受损 = 35¢。"""))
+上下限：镀金 + EMG+ + 无 = 245¢；规格不明 + 受损 = 50¢。"""))
 book["pages"].append({"name": "Pricing", "elements": p5})
 
 # ============ 六、示例 一 ============
 e1 = page_head()
 e1.append(heading("Example I", "示例 · 一"))
 e1.append(body(70, 208, 506, 118,
-"""Base: +85
-Gold-plated: +70
+"""Base: +120
+Gold-plated: +100
 Sound: +0
-EMG+: +15
-Total: 170¢""",
-"""基础：+85
-镀金：+70
+EMG+: +25
+Total: 245¢""",
+"""基础：+120
+镀金：+100
 无：+0
-EMG+：+15
-总计：170¢"""))
+EMG+：+25
+总计：245¢"""))
 e1.append(image(184, 300, 260, 260, "ill_example_gold"))
 e1.append(caption(70, 526, 506, "Gold-plated shell, no wear, EMG+ marking.",
                   "镀金外壳 · 品相无 · EMG+ 刻号"))
@@ -236,18 +236,18 @@ book["pages"].append({"name": "Example I", "elements": e1})
 e2 = page_head()
 e2.append(heading("Example II", "示例 · 二"))
 e2.append(body(70, 208, 506, 124,
-"""Base: +85
+"""Base: +120
 Aluminium alloy: +0
-Worn: -25
-Unknown: -15
-Subtotal: +45
-Total: 45¢""",
-"""基础：+85
+Worn: -30
+Unknown: -20
+Subtotal: +70
+Total: 70¢""",
+"""基础：+120
 铝合金：+0
-磨损：-25
-规格不明：-15
-小计：+45
-总计：45¢"""))
+磨损：-30
+规格不明：-20
+小计：+70
+总计：70¢"""))
 e2.append(image(184, 300, 260, 260, "ill_example_alu"))
 e2.append(caption(70, 526, 506, "Aluminium shell, worn joint, no marking.",
                   "铝合金外壳 · 磨损关节 · 未打刻铭牌"))

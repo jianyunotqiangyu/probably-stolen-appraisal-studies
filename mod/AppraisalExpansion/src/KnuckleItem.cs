@@ -42,23 +42,23 @@ public static class KnuckleItem
 
 	public const string InterfaceEmgPlus = "EMG_PLUS";
 
-	public const int BaseValue = 85;
+	public const int BaseValue = 120;
 
-	public const int MinValue = 35;
+	public const int MinValue = 50;
 
 	private const int AluminumBonus = 0;
 
-	private const int SteelBonus = 30;
+	private const int SteelBonus = 45;
 
-	private const int GoldBonus = 70;
+	private const int GoldBonus = 100;
 
-	private const int WearPenalty = -25;
+	private const int WearPenalty = -30;
 
-	private const int DamagePenalty = -50;
+	private const int DamagePenalty = -60;
 
-	private const int NoInterfacePenalty = -15;
+	private const int NoInterfacePenalty = -20;
 
-	private const int EmgPlusBonus = 15;
+	private const int EmgPlusBonus = 25;
 
 	private static readonly (string key, int weight)[] MaterialWeights = new(string, int)[3]
 	{
@@ -127,11 +127,11 @@ public static class KnuckleItem
 
 	public static int CalculateValue(GameItem item)
 	{
-		int num = 85;
+		int num = BaseValue;
 		num += MaterialBonus(GetStringTag(item, "KNUCKLE_MATERIAL"));
 		num += ConditionModifier(GetStringTag(item, "KNUCKLE_CONDITION"));
 		num += InterfaceModifier(GetStringTag(item, "KNUCKLE_INTERFACE"));
-		return Math.Max(35, num);
+		return Math.Max(MinValue, num);
 	}
 
 	public static string IconKey(string material)
