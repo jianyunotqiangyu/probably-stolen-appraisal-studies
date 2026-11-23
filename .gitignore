@@ -58,3 +58,6 @@ tools/rebalance_knuckle.py
 tools/patch_knuckle_values.py
 tools/patch_knuckle_builder_en.py
 tools/list_knuckle_numbers.py
+tools/gate_debug_tools.py
+tools/add_join_debug.py
+tools/update_readme_debug.py

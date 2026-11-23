@@ -1,3 +1,8 @@
+// 调试按钮只在定义了 MOD_DEBUG 时编译进 DLL。
+// 发布构建不带这个定义，玩家拿到的 dll 里没有这些按钮。
+// 本地调试：scripts/build.ps1 -Debug
+
+#if MOD_DEBUG
 using UnityEngine;
 
 /// <summary>
@@ -51,6 +56,22 @@ internal static class DebugTools
             ModHelper.DEBUG_CATEGORY_COMMAND,
             "Guild Card Check",
             GuildCard.EnsureGiven,
+            tall: true);
+
+        // 把入会对话人物（原版 CreateStoryAppraisalBoard）直接排进队列，方便测试入会流程
+        ModHelper.AddDebugFunction(
+            AppraisalExpansionMod.ModId,
+            ModHelper.DEBUG_CATEGORY_SPAWN,
+            "Guild Join Talk",
+            () => PlayerStore.Instance.storeClientManager.AddNextClient(
+                StoreClientListStory.CreateStoryAppraisalBoard()));
+
+        // 复位入会状态与手册补发标记，便于重复测试
+        ModHelper.AddDebugFunction(
+            AppraisalExpansionMod.ModId,
+            ModHelper.DEBUG_CATEGORY_COMMAND,
+            "Reset Guild Join",
+            ResetGuildJoin,
             tall: true);
 
         ModHelper.AddDebugFunction(
@@ -202,6 +223,20 @@ internal static class DebugTools
         Spawn(item);
     }
 
+
+    /// <summary>调试：把入会状态与手册补发标记复位，方便反复测试入会流程。</summary>
+    private static void ResetGuildJoin()
+    {
+        PlayerStore store = PlayerStore.Instance;
+        if (store != null)
+        {
+            store.isAppraisalIntroduced = false;
+        }
+
+        ModHelper.SetModDataBool(AppraisalExpansionMod.ModId, "guides_granted", false);
+        Debug.Log($"[{AppraisalExpansionMod.ModId}] 调试：入会状态与手册补发标记已复位");
+    }
+
     private static void Spawn(GameItem item)
     {
         if (PlayerStore.Instance == null)
@@ -252,3 +287,4 @@ internal static class DebugTools
         Debug.Log($"[{AppraisalExpansionMod.ModId}] 调试：晋升进度已拉到 {AppraisalRankHelper.GetProgressPercent()}%");
     }
 }
+#endif

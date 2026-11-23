@@ -1,7 +1,8 @@
 ﻿param(
     [string]$GameDir = "D:\SteamLibrary\steamapps\common\Probably Stolen",
     [string]$Configuration = "Release",
-    [string]$AssemblyName = "AppraisalExpansion"
+    [string]$AssemblyName = "AppraisalExpansion",
+    [switch]$Debug
 )
 
 # 说明：本机沙箱会拦截 MSBuild 给子进程开的输出管道，所以这里直接调用 Roslyn 的 csc.dll 编译，
@@ -60,7 +61,7 @@ foreach ($r in $refs) { if (-not (Test-Path $r)) { throw "缺少引用：$r" } }
 $args2 = @(
     "-nologo", "-noconfig", "-nostdlib+", "-target:library", "-platform:x64",
     "-langversion:latest", "-nullable:disable", "-out:$out"
-) + ($refs | ForEach-Object { "-r:$_" }) + $sources
+) + $(if ($Debug) { @("-define:MOD_DEBUG") } else { @() }) + ($refs | ForEach-Object { "-r:$_" }) + $sources
 
 & $dotnet exec $csc @args2
 if ($LASTEXITCODE -ne 0) { throw "编译失败（exit $LASTEXITCODE）" }

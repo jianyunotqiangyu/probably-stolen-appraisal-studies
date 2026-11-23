@@ -79,7 +79,9 @@ public sealed class AppraisalExpansionMod : IMod
             CoinItem.GuideItemId,
             () => ModHelper.GetLocalized(ModId, "coin_type"));
 
+        #if MOD_DEBUG
         DebugTools.Register();
+        #endif
         Debug.Log($"[{ModId}] OnEnable: 4 appraisal types registered");
     }
 
@@ -95,7 +97,9 @@ public sealed class AppraisalExpansionMod : IMod
         ModHook.OnGenerateCustomerLate -= AppraiserVisit.OnCustomersGenerated;
         GuildPhone.Unregister();
         ModHelper.RemoveAppraisalItems(ModId);
+        #if MOD_DEBUG
         DebugTools.Unregister();
+        #endif
         KnuckleInspectionOverlay.Reset();
         Debug.Log($"[{ModId}] OnDisable");
     }

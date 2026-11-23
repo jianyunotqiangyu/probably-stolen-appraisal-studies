@@ -53,7 +53,11 @@
 
 ```powershell
 # 编译（默认游戏路径写死在脚本参数里，可用 -GameDir 指定）
+# 默认是发布构建：不含 F9 调试按钮
 .\mod\AppraisalExpansion\scripts\build.ps1 -GameDir "D:\SteamLibrary\steamapps\common\Probably Stolen"
+
+# 需要 F9 调试按钮时加 -Debug（定义 MOD_DEBUG）
+.\mod\AppraisalExpansion\scripts\build.ps1 -GameDir "D:\SteamLibrary\steamapps\common\Probably Stolen" -Debug
 
 # 部署到 Mods 目录（游戏必须完全退出）
 .\mod\AppraisalExpansion\scripts\deploy.ps1 -GameDir "D:\SteamLibrary\steamapps\common\Probably Stolen"
