@@ -128,6 +128,9 @@ internal static class KnuckleInspectionOverlay
         _baseImage.sprite = baseSprite;
         _baseImage.enabled = true;
 
+        PruneDead(_markImages);
+        PruneDead(_glyphImages);
+
         SyncPanelMarks(markSprites.Count);
         for (int i = 0; i < markSprites.Count; i++)
         {
@@ -160,6 +163,9 @@ internal static class KnuckleInspectionOverlay
 
             _lensBase.sprite = baseSprite;
             _lensBase.enabled = true;
+
+            PruneDead(_lensMarks);
+            PruneDead(_lensGlyphs);
 
             SyncLensMarks(markSprites.Count);
             for (int i = 0; i < markSprites.Count; i++)
@@ -349,6 +355,7 @@ internal static class KnuckleInspectionOverlay
         _overlay = null;
         _baseImage = null;
         _markImages.Clear();
+        _glyphImages.Clear();
         _lensCopy = null;
         _lensBase = null;
         _lensMarks.Clear();
@@ -497,6 +504,23 @@ internal static class KnuckleInspectionOverlay
     }
 
     /// <summary>
+    /// 移除已销毁的层引用。
+    /// 游戏在某些时机会销毁鉴定面板的子节点；Unity 的已销毁对象与 null 相等，
+    /// 但列表长度不变，会让 SyncPanelGlyphs 以为“数量已够”而不补建，
+    /// 接着访问旧引用就抛 NullReferenceException（表现为大图/镜片空着）。
+    /// </summary>
+    private static void PruneDead(List<Image> layers)
+    {
+        for (int i = layers.Count - 1; i >= 0; i--)
+        {
+            if (layers[i] == null)
+            {
+                layers.RemoveAt(i);
+            }
+        }
+    }
+
+    /// <summary>
     /// 隐藏本轮没用到的层。
     /// 层是按需增长的（只增不减），若不主动关掉，换成叠层更少的物品时
     /// 上一件的编号/标记会留在屏幕上——这就是「纪念币的数字、手表的服务残留」的原因。
@@ -505,8 +529,14 @@ internal static class KnuckleInspectionOverlay
     {
         for (int i = used; i < layers.Count; i++)
         {
-            layers[i].sprite = null;
-            layers[i].enabled = false;
+            Image layer = layers[i];
+            if (layer == null)
+            {
+                continue;
+            }
+
+            layer.sprite = null;
+            layer.enabled = false;
         }
     }
 
